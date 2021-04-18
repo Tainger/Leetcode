@@ -24,5 +24,36 @@
 
 ##### 代码实现
 ```aidl
-
+public static int[] countSort(int[] arr) {
+        int min = Integer.MAX_VALUE;
+        int max = Integer.MIN_VALUE;
+        int[] res = new int[arr.length];
+        //O(n)
+        for (int j : arr) {
+            min = Math.min(j, min);
+            max = Math.max(j, max);
+        }
+        int[] pos = new int[max + 1];
+        //O(k)
+        for (int i = 0; i < arr.length; i++) {
+            //因为此处计数是从 1 开始的。
+            pos[arr[i]]++;
+        }
+        for (int i = 1; i < pos.length; i++) {
+            pos[i] = pos[i] + pos[i - 1];
+        }
+        for (int i = 0; i < arr.length; i++) {
+            //计数是从 1开始的，我们重新排res[]应该从0开始
+            res[pos[arr[i]]-1] = arr[i];
+            pos[arr[i]]--;
+        }
+        return res;
+    }
 ```
+
+
+##### 总结
+- 计数排序本质就是用数组存储一个映射关系把它的位置保存起来，然后再遍历原先的数组从位置数组中把它拿出来进行排序。
+- 所排序的数组中必须为非负整数，因为数组的下标被限制了。
+- 计数排序时间复杂度为O(n+k),n 为待排序的长度，k为数组的中元素最大值。
+

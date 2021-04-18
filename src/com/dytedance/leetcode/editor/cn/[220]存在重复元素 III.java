@@ -71,13 +71,10 @@ class Solution220 {
         }
 
     public static void main(String[] args) {
-        int[] arr = new int []{-2147483648,2147483647};
-        int k = 1;
-        int t =1;
-        boolean b = new Solution220().containsNearbyAlmostDuplicate(arr, k, t);
-        System.out.println(b);
-
-        System.out.println(arr[0] - arr[1]);
+        TreeSet<Long> set = new TreeSet<Long>();
+        set.add(2L);
+        Long ceiling = set.ceiling(1L);
+        System.out.println(ceiling);
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
