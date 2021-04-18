@@ -36,14 +36,14 @@ public static int[] countSort(int[] arr) {
         int[] pos = new int[max + 1];
         //O(k)
         for (int i = 0; i < arr.length; i++) {
-            //因为此处计数是从 0 开始的。
+            //因为此处计数是从 1 开始的。
             pos[arr[i]]++;
         }
         for (int i = 1; i < pos.length; i++) {
             pos[i] = pos[i] + pos[i - 1];
         }
         for (int i = 0; i < arr.length; i++) {
-            //因为此处计数是从 0 开始的。
+            //计数是从 1开始的，我们重新排res[]应该从0开始
             res[pos[arr[i]]-1] = arr[i];
             pos[arr[i]]--;
         }
