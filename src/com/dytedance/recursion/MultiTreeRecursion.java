@@ -1,15 +1,14 @@
-# 递归总结
+package com.dytedance.recursion;
 
-## 二叉树的递归
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
-
-### node结构的递归
-
-
-
-### Map<node,List<node>> 数据结构，相当于多叉树递归
-
-```
+/**
+ * @author jiazhiyuan
+ * @date 2021/6/20 10:33 上午
+ */
 public class MultiTreeRecursion {
     private Map<String, List<String>> map ;
 
@@ -58,3 +57,7 @@ public class MultiTreeRecursion {
 
     }
 }
+
+
+
+    
