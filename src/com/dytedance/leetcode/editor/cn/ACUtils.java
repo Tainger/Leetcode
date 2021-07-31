@@ -30,10 +30,21 @@ public class ACUtils {
         return res.next;
     }
 
-    public static void main(String[] args) {
-        ListNode listNode = getListNode(new Integer[]{1, 2, 3, 4, 5});
-        printListNode(listNode);
-    }
+    /**
+     * 将字符串二维数组转化为正常可识别的数组
+     */
+//    public static int[][] getListNode(String str) {
+//        String removeParentheses = str.substring(1, str.length() - 1);
+//        String[] arr = removeParentheses.split(",");
+//        for (String tempStr : arr) {
+//            String subStr = tempStr.substring(1, tempStr.length() - 1);
+//            String[] split = subStr.split(",");
+//        }
+//
+//    }
+
+
+
 }
 
 
