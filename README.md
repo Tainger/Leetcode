@@ -16,9 +16,10 @@
   - [200. 岛屿数量](https://leetcode-cn.com/problems/number-of-islands/)
 
 
-### 常见的排序算法
+### 前置知识
 - [计数排序](https://github.com/jiazhiyuans/Leetcode/blob/master/readme/sort/CountSort.md)
 
 
 ### LeetCode热题 Hot 100
 - [101. 对称二叉树](./readme/leetCode/101.%20对称二叉树.md)
+- [94. 二叉树的中序遍历](./readme/leetCode/94.%20二叉树的中序遍历.md)
