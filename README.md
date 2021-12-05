@@ -11,7 +11,9 @@
 - 算法模版
   
 - 剑指offer
-    - [二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)  [题解:](./readme/474.一和零)
+    - [二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)  
+    - [一和零:](./readme/474.一和零)
+    - [剑指 Offer 42. 连续子数组的最大和](./readme/leetCode/dp/剑指%20Offer%2042.%20连续子数组的最大和.md)
 - LeetCode 
   - [200. 岛屿数量](https://leetcode-cn.com/problems/number-of-islands/)
 
@@ -38,3 +40,5 @@
 
 ### dp
 - [1046. 最后一块石头的重量](./readme/leetCode/1046.%20最后一块石头的重量.md)
+- [剑指 Offer 42. 连续子数组的最大和](./readme/leetCode/dp/剑指%20Offer%2042.%20连续子数组的最大和.md)
+- [剑指 Offer II 095. 最长公共子序列](./readme/leetCode/dp/剑指%20Offer%20II%20095.%20最长公共子序列.md)
