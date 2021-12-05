@@ -6,7 +6,12 @@ package com.dytedance.dp;
  */
 public class Package01 {
 
-
+    /**
+     *  示例: 输入:W = 5, N = 3      w = [3, 2, 1], v = [5, 2, 3]
+     *  输出:8
+     *  解释:选择 i=0 和 i=2 这两件物品装进背包。它们的总重量 4 小于 W,同时可以获得最大价值 8。
+     * @param args
+     */
     public static void main(String[] args) {
         int N = 3;   //0,1,2,3
         int W = 5;
