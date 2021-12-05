@@ -23,7 +23,7 @@
 考虑到存在多个相等元素的情况,再维护了B中的数据同时，如果A中存在相同的数据需要在B中相应减去一。
 
 ##### 代码实现
-```aidl
+```java
 public static int[] countSort(int[] arr) {
         int min = Integer.MAX_VALUE;
         int max = Integer.MIN_VALUE;
