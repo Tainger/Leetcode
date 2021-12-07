@@ -55,12 +55,19 @@
 
 ### dp
 - [1046. 最后一块石头的重量](./readme/leetCode/1046.%20最后一块石头的重量.md)
-- [剑指 Offer 42. 连续子数组的最大和](./readme/leetCode/dp/剑指%20Offer%2042.%20连续子数组的最大和.md)
-- [剑指 Offer II 095. 最长公共子序列](./readme/leetCode/dp/剑指%20Offer%20II%20095.%20最长公共子序列.md)
-- [0-1背包](./readme/dp/01背包.md)
-- [完全背包](./readme/dp/完全背包.md)
-- [647. 回文子串的数量](./readme/leetCode/dp/647.回文子串.md)
-- [516. 最长回文子序列](./readme/leetCode/dp)
+  
+- 剑指offer
+  - [剑指 Offer 42. 连续子数组的最大和](./readme/leetCode/dp/剑指%20Offer%2042.%20连续子数组的最大和.md)
+  - [剑指 Offer II 095. 最长公共子序列](./readme/leetCode/dp/剑指%20Offer%20II%20095.%20最长公共子序列.md)
+
+  
+- LeetCode
+  - [647. 回文子串的数量](./readme/leetCode/dp/647.回文子串.md)
+  - [516. 最长回文子序列](./readme/leetCode/dp)
+  
+- 其他的
+  - [0-1背包](./readme/dp/01背包.md)
+  - [完全背包](./readme/dp/完全背包.md)
 
 
 
