@@ -32,12 +32,30 @@ package com.dytedance.leetcode.editor.cn;//给你一个字符串 s ，找出其�
 // 👍 674 👎 0
 
 
+import java.util.Arrays;
+
 //leetcode submit region begin(Prohibit modification and deletion)
-public class Solution516 {
+class Solution516 {
     public int longestPalindromeSubseq(String s) {
-
-
-        return 0;
+        //确认好状态参数
+        int n = s.length();
+        if (0 == n) return 0;
+        int[][] dp = new int[n][n];
+        //初始化值,递归的终止条件就是，dp的初始化条件，递归的终止条件 i=j;
+        for(int i = 0; i < n; i++) {
+           dp[i][i] = 1;
+        }
+        for(int i = n-1; i >= 0; i --) {
+            for(int j = i+1; j < n; j++) {
+                //根据策略找出 找出最优子结构
+                if(s.charAt(i) == s.charAt(j)) {
+                    dp[i][j] = 2 + dp[i+1][j-1];
+                }else {
+                    dp[i][j] = Math.max(dp[i][j-1], dp[i+1][j]);
+                }
+            }
+        }
+        return dp[0][n-1];
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
