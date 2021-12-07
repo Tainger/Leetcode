@@ -19,8 +19,14 @@
 
 
 ### 前置知识
-- [计数排序](https://github.com/jiazhiyuans/Leetcode/blob/master/readme/sort/CountSort.md)
 
+- 数据结构
+  - 堆
+
+- 排序
+  - [计数排序](https://github.com/jiazhiyuans/Leetcode/blob/master/readme/sort/CountSort.md)
+  - [快速排序](./readme/sort/QuickSort.md)
+  - [桶排序](./readme/sort/BucketSort.md)
 
 ### LeetCode
 
@@ -29,6 +35,13 @@
 - [94. 二叉树的中序遍历](./readme/leetCode/94.%20二叉树的中序遍历.md)
 - [104. 二叉树的最大深度](./readme/leetCode/)
 - [141. 环形链表](./readme/leetCode/环形链表/101环形链表.md)
+
+#### 剑指offer 
+
+
+
+#### 剑指offer 2
+
 
 
 #### 双指针
@@ -44,3 +57,17 @@
 - [1046. 最后一块石头的重量](./readme/leetCode/1046.%20最后一块石头的重量.md)
 - [剑指 Offer 42. 连续子数组的最大和](./readme/leetCode/dp/剑指%20Offer%2042.%20连续子数组的最大和.md)
 - [剑指 Offer II 095. 最长公共子序列](./readme/leetCode/dp/剑指%20Offer%20II%20095.%20最长公共子序列.md)
+- [0-1背包](./readme/dp/01背包.md)
+- [完全背包](./readme/dp/完全背包.md)
+- [647. 回文子串的数量](./readme/leetCode/dp/647.回文子串.md)
+- [516. 最长回文子序列](./readme/leetCode/dp)
+
+
+
+
+
+
+### 常规题
+
+- LeetCode
+  - [1816. 截断句子](./readme/leetCode/basic/1816.%20截断句子.md)
