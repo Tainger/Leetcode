@@ -63,7 +63,7 @@
   
 - LeetCode
   - [647. 回文子串的数量](./readme/leetCode/dp/647.回文子串.md)
-  - [516. 最长回文子序列](./readme/leetCode/dp)
+  - [516. 最长回文子序列](./readme/leetCode/dp/516.%20最长回文子序列.md)
   
 - 其他的
   - [0-1背包](./readme/dp/01背包.md)
