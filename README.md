@@ -68,6 +68,7 @@
   - [62. 不同路径](./readme/leetCode/dp/62.%20不同路径.md)
   - [63. 不同路径 II](./readme/leetCode/dp/63.%20不同路径%20II.md)
   - [55.跳跃游戏](./readme/leetCode/dp/55.%20跳跃游戏%20.md)
+  - [300. 最长递增子序列](./readme/leetCode/dp/300.%20最长递增子序列.md)
   
 - 其他的
   - [0-1背包](./readme/dp/01背包.md)
