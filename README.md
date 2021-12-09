@@ -55,6 +55,8 @@
 
 ### dp
 - [1046. 最后一块石头的重量](./readme/leetCode/1046.%20最后一块石头的重量.md)
+- [62. 不同路径](./readme/leetCode/dp/62.%20不同路径.md)
+- [63. 不同路径 II](./readme/leetCode/dp/63.%20不同路径%20II.md)
   
 - 剑指offer
   - [剑指 Offer 42. 连续子数组的最大和](./readme/leetCode/dp/剑指%20Offer%2042.%20连续子数组的最大和.md)

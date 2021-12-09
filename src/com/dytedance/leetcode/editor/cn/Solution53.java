@@ -50,7 +50,7 @@ public class Solution53 {
 
         for (int i = 0; i < nums.length; i++) {
 
-            dp[i+1] = Math.max(dp[i], dp[I])
+//            dp[i+1] = Math.max(dp[i], dp[I])
         }
 
         return 0;
